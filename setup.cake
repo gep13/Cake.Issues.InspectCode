@@ -9,7 +9,8 @@ BuildParameters.SetParameters(
     title: "Cake.Issues.InspectCode",
     repositoryOwner: "cake-contrib",
     repositoryName: "Cake.Issues.InspectCode",
-    appVeyorAccountName: "cakecontrib");
+    appVeyorAccountName: "cakecontrib",
+    shouldRunCodecov: false);
 
 BuildParameters.PrintParameters(Context);
 
